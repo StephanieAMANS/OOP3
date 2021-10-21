@@ -9,7 +9,7 @@
      public function addVehicle($vehicle)
      {
          if ($vehicle instanceof self){
-             $this->setCurrentVehicles((array) $vehicle);
+             $this->setCurrentVehicles([$vehicle]);
          }
      }
 
