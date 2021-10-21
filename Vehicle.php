@@ -2,13 +2,15 @@
 // Vehicle.php
 
 
-class Vehicle
+Class Vehicle
 
 {
     protected string $color;
     protected int $currentSpeed;
     protected int $nbSeats;
     protected int $nbWheels;
+
+
 
     public function __construct(string $color, int $nbSeats)
     {
